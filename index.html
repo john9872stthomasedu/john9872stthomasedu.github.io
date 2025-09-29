@@ -5,46 +5,43 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Foundation Intro</title>
 	<link rel="stylesheet" href="css/foundation.css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
-<body>
+<body style="overflow: hidden">
     <div class="off-canvas-wrapper">
-        <!-- Your menu or Off-canvas content goes here -->
-        <div class="off-canvas position-left" id="offCanvas" data-off-canvas>
-            <!-- Close button -->
-            <button class="close-button" aria-label="Close menu" type="button" data-close>
-                <span aria-hidden="true">&times;</span>
-            </button>
-
-            <!-- Menu -->
-            <ul class="vertical menu">
-                <li><a href="#">Foundation</a></li>
-                <li><a href="#">Dot</a></li>
-                <li><a href="#">ZURB</a></li>
-                <li><a href="#">Com</a></li>
-                <li><a href="#">Slash</a></li>
-                <li><a href="#">Sites</a></li>
-            </ul>
-        </div>
-        <!-- Your page content lives here -->
         <div class="off-canvas-content" data-off-canvas-content>
-            <!-- main content within a `grid-container` -->
-            <div class="grid-container">
-                <!-- `grid-x` represents a row -->
+            <div class="top-bar" id="topbar">
+                <a href="index.html">Home</a>
+                <a href="projects.html">Projects</a>
+                <a href="resume.html">Resume</a>
+                <a href="fun.html">Fun Stuff</a>
+            </div>
+            
+            <div class="grid-container" id="content">
                 <div class="grid-x grid-padding-x">
-                    <div class="cell small-6 large-4" style="background-color: #ADD8E6;">Small 6 / Large 4</div>
-                    <div class="cell small-6 large-8" style="background-color: #90EE90;">Small 6 / Large 8</div>
+                    <header class="float-center">
+                        Jack Johnson
+                    </header>
                 </div>
                 
                 <div class="grid-x grid-padding-x">
-                    <div class="cell large-auto" style="background-color: #ADD8E6;">One</div>
-                    <div class="cell large-auto" style="background-color: #90EE90;">Two</div>
-                    <div class="cell large-auto" style="background-color: #ADD8E6;">Three</div>
-                    <div class="cell large-auto" style="background-color: #90EE90;">Four</div>
-                    <div class="cell large-auto" style="background-color: #ADD8E6;">Five</div>
+                    <img src="images/headshot.jpeg" alt="a picture of me" width="242px" height="323px" class="float-center">
                 </div>
                 
-                <div class="grid-x grid-padding-x">
-                    <button type="button" class="cell large-auto button" data-toggle="offCanvas">Open Menu</button>
+                <div>
+                    <p>
+                        My name is Jack Johnson and this is a home page I made for my computer science class Web Development.
+                        As of writing this I am currently in my first semester of my junior year of college at the University of St. Thomas in St. Paul Minnesota.
+                        Taking a high level computer science class would indicate that I am a major in computer science and that assestment is correct as I am a major in computer science, although I am also a major in data science.
+                        The choice to pursue computer science came first before I realized that it would not be too hard to also gain a degree in data science so I made the choice to get a double major.
+                        I do see myself though as a computer science major who is also majoring in data science, not the other way around.
+                        Not that I dislike the data science part of my schooling, but the choice to pursue that came later and more of my interest are in computer science and how computers work.
+                        In terms of going forward, my plan is to graduate and get a solid job, the same plan as when I started college.
+                        I have lived in Minnesota all my life, so I don't have any specific plans to go elsewhere, although if the right opportunity arises I would't be too opposed.
+                        I know for some people their plan is to get a job far away and to never return, I am of the thought of may as well stay where I am, there is nothing pulling me to any specific place after I graduate.
+                        And really thats whats going on with me and my plans for the future.
+                        <br/><br/><br/><br/><br/><br/><br/><br/>
+                    </p>
                 </div>
             </div>
         </div>
